@@ -16,7 +16,9 @@ body {
 }
 
 .main-block .content-block {
+    display: flex;
     flex: 0 0 85%;
+    flex-direction: column;
 }
 
 .menu-item {
@@ -25,9 +27,9 @@ body {
 }
 
 .content-block  .up-block {
-  height: 100px;
+  flex: 0 0 20%;
 }
 
 .content-block  .down-block {
-  height: 100%;
+  flex: 0 0 80%;
 }
