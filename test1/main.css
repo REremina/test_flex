@@ -1,0 +1,33 @@
+html {
+    height: 100%;
+}
+
+body {
+  min-height: 100%;
+  margin: 0;
+}
+
+.main-block {
+    display: flex;
+}
+
+.main-block .menu-block {
+    flex: 0 0 15%;
+}
+
+.main-block .content-block {
+    flex: 0 0 85%;
+}
+
+.menu-item {
+  display: flex;
+  flex: 1;
+}
+
+.content-block  .up-block {
+  height: 100px;
+}
+
+.content-block  .down-block {
+  height: 100%;
+}
